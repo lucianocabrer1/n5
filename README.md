@@ -1,2 +1,12 @@
-# n5
-POC N5
+Los casos de prueba a automatizar son los solicitados por el ejercicio de la POC, el mismo es un solo caso en el cual se controlara la url y los 2 títulos de la página.
+- En la automatización se utiliza PAGE OBJECT MODEL como patrón de diseño
+- Se utiliza Extent Report para los reportes a medida, se dejan 2 ejemplos de como se ve el mismo
+- Buenas practicas
+    - Reutilización de código
+    - Variables con nombres que no sean cripticos
+    - Nombres de los métodos que hagan alusión a que se está queriendo hacer y que se pueda comprender con simplemente ver su nombre
+    - Todo lo que pueda ser reutilizable en más de 1 ocación debe hacerse un método
+    - Uso de THREADS para la ejecución de varios test a la vez
+    - Se encuentra si uso, pero el proyecto se puede parametrizar para que se ejecute de distintas formas si es local o en server, o seleccionar diferentes browsers
+    - No utilizar código harcodeado
+    - El test no debe poseer código, solo llamadas a los métodos

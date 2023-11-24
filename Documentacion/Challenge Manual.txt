@@ -1,0 +1,41 @@
+● ¿Cuáles son los puntos a considerar para elaborar un plan pruebas?
+Las aristas a manejar son distintas en cada proyecto
+- Expertise de los tester en la aplicación
+- Expertise técnica de los tester
+- Tipo de aplicación a probar
+- Cantidad de gente con la que cuento
+- Cuan grande sea la aplicación a nivel de flujos
+- Documentación funcional sobre los procesos a testear
+- Etcétera 
+
+● ¿Qué es severidad y prioridad en los defectos?
+Severo hace a referencia a cuan perjudicial es el defecto encontrado sobre nuestro producto
+
+Prioridad se lo puede explicar de la siguiente manera, cuan rápido debo solucionar ese defecto para evitar problemas en la aplicación
+Es una graduación en base a la severidad del defecto un ejemplo sería el siguiente
+- Prioridad Baja: No puedo ver las siguientes cuotas de un préstamo en la plataforma del banco
+- Prioridad Alta: No puedo realizar transferencias ni pagos. (Este defecto sería bloqueante ya que no le permite a nuestro usuario realizar 
+  ningún tipo de transacción lo cual afecta a nuestra aplicación y hay que solucionarlo en el menor tiempo posible para que el impacto que 
+  generé sea el menor posible)
+● Menciona los diferentes tipos de pruebas de performance
+Stress
+Carga
+Bombardeo
+
+● En que nos basamos para verificar la usabilidad
+En que sea simple y entendible para un usaurio que nunca haya interactuado con la misma
+
+● ¿Qué es una Api?
+Una api explicado de una manera simple es a lo que se denomina como backend de la aplicación, 
+también se las suele llamar como micro servicios,estos son pequeños pedazos de código que se integran entre si para crear la aplicación final.
+
+Estos servicios lo que hacen son diferentes acciones sobre una base de datos, los más usuales son:
+- POST (Ingresa un dato en nuestra base)
+- GET (Obtiene una respuesta con los datos solicitados)
+- PUT (Realiza una modificación o permite subir un determinado archivo)
+- DELETE (Ya no se usa un delete físico sino que se utiliza uno lógico, para poder volver a acceder a los datos en caso de que por ejemplo
+  el cliente se vuelva a dar de alta en nuestro servicio)
+
+● ¿Cuál es la diferencia entre pruebas de UX y UI?
+UI son pruebas de Interfaz de como se debe ver UX pruebas de usabilidad como debe funcionar en sentido a la facilidad
+de uso para el usuario final (que sea amigable y simple de entender)

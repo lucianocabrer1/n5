@@ -1,0 +1,49 @@
+● Definir el plan de pruebas.
+- Testing Exploratio sobre las nuevas feature
+- Testing de smoke sobre la aplicación
+- Testing de automatización sobre los flujos de mayor dolencia/features nuevos que tengan mayor prioridad
+- Regresión a la salida de producción
+
+● Definir la estrategia de pruebas.
+● Elaborar los escenarios de prueba.
+Probar que la carga de los datos funcione de manera adecuada
+Probar que las 3 validaciones funcionen individualmente de manera adecuada de manera individual
+Realzar prueba de integración 
+Automatizar casos de prueba
+
+● Diseñar los casos de prueba.
+
+- Caso 1: Persona Natural/Jurídica con antencedentes y con los datos correctos en el sistema
+Resultado esperado no enviar la petición para calificar el prospecto
+
+- Caso 2: Persona Natural/Jurídica sin antencedentes y con los datos incorrectos en el sistema
+Resultado esperado no enviar la petición para calificar el prospecto
+
+- Caso 3: Persona Natural/Jurídica sin antencedentes y con los datos correctos en el sistema
+Resultado esperado enviar la petición para calificar el prospecto
+
+- Caso 4: Persona Natural/Jurídica sin antencedentes y con los datos correctos en el sistema,
+          validar calificación de 0.5
+Resultado esperado no guardar el prospecto
+
+- Caso 5: Persona Natural/Jurídica sin antencedentes y con los datos correctos en el sistema,
+          validar calificación de 0.6
+Resultado esperado guardar el prospecto
+
+- Caso 6: Persona Natural/Jurídica sin antencedentes y con los datos correctos en el sistema,
+          validar calificación de 0.7
+Resultado esperado guardar el prospecto
+
+- Caso 7: Persona Natural/Jurídica sin antencedentes y con los datos correctos en el sistema,
+          validar calificación de 0
+Resultado esperado no guardar el prospecto
+
+- Caso 8: Persona Natural/Jurídica sin antencedentes y con los datos correctos en el sistema,
+          validar calificación de 2
+Resultado esperado guardar el prospecto
+
+● Incluir la prioridad de las actividades de pruebas definidas en el equipo
+de QA.
+Prioridad alta regresion/smoke/integración
+Prioridad media automatización
+Prioridad baja exploratorio 
